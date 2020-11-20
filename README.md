@@ -2,9 +2,15 @@
 
 Install and configure a certificate authority on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-ca.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ca)|[![github](https://github.com/robertdebock/ansible-role-ca/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ca/actions)|[![quality](https://img.shields.io/ansible/quality/35543)](https://galaxy.ansible.com/robertdebock/ca)|[![downloads](https://img.shields.io/ansible/role/d/35543)](https://galaxy.ansible.com/robertdebock/ca)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ca.svg)](https://github.com/robertdebock/ansible-role-ca/releases/)|
+** FORKED FROM Robert Debock repo **
+
+## Why ?
+Assets are not functionnal. I try to replace by **quiet: true** like [Ansible module asset documentation](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assert_module.html)
+
+Finaly, I replaced quiet: true by msg: "Assets get hungry"...
+
+I know, I was in a hurry...
+
 
 ## [Example Playbook](#example-playbook)
 
