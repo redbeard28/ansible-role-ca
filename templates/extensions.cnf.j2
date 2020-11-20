@@ -2,7 +2,7 @@
 
 # These extensions are added when 'ca' signs a request.
 
-{% if item.extensions is defined %}
+{% if request.extensions is defined %}
 {% for ext in item.extensions %}{{ ext }}{% endfor %}
 {% endif %}
 
